@@ -167,7 +167,6 @@ article{
         width: 48%;
     }
     .news_headline{
-        background-color: aquamarine;
         width: 60%;
         position: absolute;
         top: 5px;
@@ -189,5 +188,11 @@ article{
     figure{
         margin-left:1px;
         align-items: center;
+    }
+    .chapter{
+        margin-left: 0;
+    }
+    article{
+        margin-left: 8%;
     }
 }
