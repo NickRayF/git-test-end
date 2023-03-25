@@ -97,9 +97,6 @@ footer {
     border-radius: 5px;
 }
 
-.active{
-    font-weight: bold;
-}
 .chapter_header{
     margin-top: 100px;
     font-size: 50px;
@@ -155,6 +152,9 @@ article{
     }
 }
 @media screen and (max-width: 1348px){
+    .serch-list{
+        margin-top: 200px;
+    }
     figure{
         width: 70%;
         position: relative;
@@ -166,21 +166,30 @@ article{
         width: 48%;
     }
     .news_headline{
-        width: 60%;
+        MAX-width: 56%;
         position: absolute;
         top: 5px;
+        margin-left: -25%;
+        left: 50%;
+
     }
     .news-picture{
         justify-self: center;
-        margin-top: 100px;
+        margin-top: 40%;
         width: 350px;
     }
     .list{
         width: 90%;
         transform: scale(0.8);
     }
+    .news{
+        width: 350px;
+    }
+    .chapter{
+        margin-left: 100px;
+    }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
     .serch-list{
         display: none;
     }
@@ -188,10 +197,62 @@ article{
         margin-left:1px;
         align-items: center;
     }
-    .chapter{
-        margin-left: 0;
-    }
+
     article{
         margin-left: 8%;
+    }
+    header{
+        position: relative;
+    }
+    .enter{
+        right: 0px;
+        top: 80px;
+        position: absolute;
+    }
+    
+}
+@media screen and (max-width: 980px){
+    .news-picture{
+        width: 250px;
+    }
+    .chapter{
+        margin-left: 10px;
+    }
+    .news{
+        width: 250px;
+    }
+    .chapter_header{
+        margin-right: 160px;
+    }
+}
+@media screen and (max-width: 880px){
+    .news-picture{
+        width: 250px;
+    }
+    .chapter{
+        margin-left: -50px;
+    }
+    .news{
+        width: 250px;
+    }
+    .chapter_header{
+        margin-right: 160px;
+    }
+}
+@media screen and (max-width: 650px){
+    .news-picture{
+        width: 200px;
+    }
+    .chapter{
+        margin-left: -20px;
+    }
+    .news{
+        width: 200px;
+    }
+    figure{
+        width: 250px;;
+    }
+    .chapter_header{
+        margin-left: -40px;
     }
 }
